@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness On Fire</title>
+    <link rel="icon" type="image/x-icon" href="https://i.pinimg.com/736x/ab/26/c2/ab26c2360ca97904e4163d6089e33b73.jpg">
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&display=swap');
+
+    body {
+        font-family: 'Poppins', sans-serif;
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url('https://images.unsplash.com/photo-1571902943202-507ec2618e8f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Z3ltJTIwYmFja2dyb3VuZHxlbnwwfHwwfHw%3D&w=1000&q=80');
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .left {
+        display: inline-block;
+        /* border: red; */
+        color: grey;
+        position: absolute;
+        left: 35px;
+        top: 15px;
+
+    }
+
+    .left img {
+        width: 100px;
+        filter: invert(100%);
+    }
+
+    .left div {
+        line-height: 19px;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .mid {
+        display: block;
+        width: 40%;
+        margin: 20px auto;
+        /* border: 2px solid green; */
+    }
+
+    .right {
+        position: absolute;
+        right: 34px;
+        top: 20px;
+        display: inline-block;
+        /* border: 2px solid yellow; */
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        color: white;
+        display: inline-block;
+        font-size: 18px;
+    }
+
+    .navbar li a {
+        color: white;
+        display: sticky;
+        text-decoration: none;
+        padding: 20px 15px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: grey;
+    }
+
+    .btn {
+        font-family: 'Poppins', sans-serif;
+        font-size: 15px;
+        margin: 20px 10px;
+        padding: 15px 30px;
+        background-color: black;
+        color: white;
+        border: 2px solid rgb(59, 53, 53);
+        border-radius: 25px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: rgb(59, 53, 53);
+    }
+
+    .fitnessonfire {
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+        margin: 0px;
+        line-height: 1;
+        font-size: 70px;
+        text-transform: uppercase;
+        color: transparent;
+        background-image: linear-gradient(to left, #0099a1, #0099ff, #001aff, #9900ff, #ff004c, #f2ff00, #00ff08, #00ffae);
+        -webkit-background-clip: text;
+        animation: animate 15s linear infinite;
+        -webkit-background-size: 50%;
+        background-size: 50%;
+
+    }
+
+    @keyframes animate {
+        0% {
+            background-position: 0 100%;
+        }
+
+        50% {
+            background-position: 100% 0;
+        }
+
+        100% {
+            background-position: 0 100%;
+        }
+    }
+
+
+    .container {
+        /* border: 2px solid purple; */
+        border: none;
+        margin: 100px 95px;
+        padding: 45px;
+        width: 35%;
+        border-radius: 20px;
+    }
+
+    .button {
+        width: 400px;
+        font-family: 'Poppins', sans-serif;
+        font-size: 15px;
+        margin: 10px 5px;
+        padding: 8px 16px;
+        background-color: black;
+        color: white;
+        border: 2px solid rgb(59, 53, 53);
+        border-radius: 15px;
+        cursor: pointer;
+    }
+
+    .button:hover {
+        background-color: rgb(59, 53, 53);
+
+    }
+
+    .form-group input {
+        text-align: center;
+        display: block;
+        width: 400px;
+        margin: 8px;
+        padding: 4px;
+        font-size: 20px;
+        font-family: 'Poppins', sans-serif;
+        border: 2px solid white;
+        border-radius: 15px;
+    }
+
+    .container h1 {
+        color: grey;
+        font-size: 60px;
+        text-align: center;
+        margin-left: 75px;
+        margin-top: 25px;
+
+    }
+
+    .container button {
+        font-size: 15px;
+        display: block;
+        width: 410px;
+        margin-left: 10px;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="https://img.freepik.com/premium-vector/fitness-fire-logo-template-design-vector_20029-786.jpg"
+                alt="Logo">
+            <div class="fitnessonfire">
+                Fitness On Fire
+            </div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="file:///C:/Users/walunb/Videos/Fitness%20On%20Fire%20(GYM)/index.html" class="active">Home</a></li>
+                <li><a href="file:///C:/Users/walunb/Videos/Fitness%20On%20Fire%20(GYM)/About%20Us%20.html">About Us</a></li>
+                <li><a href="file:///C:/Users/walunb/Videos/Fitness%20On%20Fire%20(GYM)/Join%20Us%20.html">Join Us</a></li>
+                <li><a href="file:///C:/Users/walunb/Videos/Fitness%20On%20Fire%20(GYM)/Store%20.html">Store</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">Login</button>
+            <button class="btn">Signup</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>
+            Join the best GYM of 2023
+        </h1>
+        <form action="action.php">
+            <div class="form-group">
+                <input type="text" placeholder="Enter Your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="Enter Your Age">
+            </div>
+            <div class="form-group">
+                <input type="email" placeholder="Enter Your Email">
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="Enter Your Phone no.">
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="Enter Your Locality">
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="Enter Your Gender">
+            </div>
+            <button class="button">Submit The Form</button>
+        </form>
+    </div>
+</body>
+
+</html>
